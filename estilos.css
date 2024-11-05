@@ -1,0 +1,34 @@
+.edad-azul {
+    color: blue;
+    border: 2px solid blue; /* Cambia el color del texto a azul */
+}
+
+/* Estilos generales de la tabla */
+.prim{
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000000; /* Borde negro para otras tablas */
+}
+
+/* Estilos específicos para la segunda tabla */
+.FECHANC{
+    color: rgb(4, 0, 255); /* Texto en color azul */ 
+    width: 100%;
+
+}
+
+.FECHANC th, 
+.FECHANC td {
+    border: 2px solid blue; /* Bordes azules para cada celda */
+
+    color: blue; /* Texto en azul */
+}
+
+/* Estilos adicionales dentro de la tabla */
+.FECHANC input {
+    color: blue; /* Color de texto en los inputs */
+    border: 2px solid blue; /* Borde azul en los inputs */
+
+}
